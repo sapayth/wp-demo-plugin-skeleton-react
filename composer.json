@@ -1,0 +1,31 @@
+{
+    "name": "sapayth/demo-plugin",
+    "description": "Demo plugin skeleton for WordPress with ReactJS",
+    "type": "wordpress-plugin",
+    "license": "GPL v2",
+    "autoload": {
+        "psr-4": {
+            "DemoPlugin\\": "includes/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sapayth H."
+        }
+    ],
+    "minimum-stability": "dev",
+    "config": {
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
+    },
+    "require-dev": {
+        "dealerdirect/phpcodesniffer-composer-installer": "dev-main",
+        "wp-coding-standards/wpcs": "^2.3"
+    },
+    "require": {
+        "wedevs/wp-utils": "dev-main",
+        "stripe/stripe-php": "^13.0",
+        "woocommerce/action-scheduler": "dev-trunk"
+    }
+}

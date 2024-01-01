@@ -1,0 +1,17 @@
+/.idea
+.DS_Store
+composer.lock
+/node_modules
+/storage/logs/error.log
+/vendor
+/.phpintel
+svn
+svn.php
+/public/*
+!/public/js
+/public/js/*
+package-lock.json
+public_build
+/assets/*
+!/assets/js
+/assets/js/*
